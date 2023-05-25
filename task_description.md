@@ -55,7 +55,7 @@ Read the task carefully.
     - Gender
     - Update button
 
-    **Update Action:** On clicking the Update button a user can update his/her information **except designation and email**.
+    **Update Action:** On clicking the Update button a user can update his/her information **except role and email**.
 
 <br/>
 
