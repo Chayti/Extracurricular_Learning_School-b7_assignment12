@@ -12,7 +12,7 @@ Read the task carefully.
 <hr/>
 <br/>
 
-## **Main Requirements**
+## :writing_hand:**Main Requirements**
 
 1. Focus on making the website visually appealing. Ensure that
     - color contrast is pleasing to the eye
@@ -59,7 +59,7 @@ Read the task carefully.
 
 <br/>
 
-5. **<span style="color:green">Registration & Login System:</span>**
+5. **Registration & Login System:**
 
     **Login Page:**
     When a user clicks on the login button, they will be redirected to the login page having the following:
@@ -101,7 +101,7 @@ Read the task carefully.
 
     >**Note:** A user cannot submit empty email and password fields.
 
-6. **<span style="color:green">Homepage:</span>**
+6. **Homepage:**
 
     - **Top Slider Section -** Will have a relevant slider.
     - **Message from the School Director/President section -** give a relevant message and a picture. The design is entirely up to you.
@@ -118,7 +118,7 @@ Read the task carefully.
 
 <br/>
 
-7. **<span style="color:green">All Instructors Page:</span>**
+7. **All Instructors Page:**
 The All Instructors will have the information of the instructors that work in the school. The information will be:
 
    - Image
@@ -130,7 +130,7 @@ The All Instructors will have the information of the instructors that work in th
 
 <br/>
 
-8. **<span style="color:green">All Courses page:</span>**
+8. **All Courses page:**
 The All Courses will have the information of the courses that are offered in the school. The information will be:
 
    - Image
@@ -141,7 +141,7 @@ The All Courses will have the information of the courses that are offered in the
 
    <br/>
 
-    >**Note:** You will have to display the courses in **tabular form**. Disable the **Select button** when the available seats become **zero** and make the row of that course **<span style="color:red">red colored</span>**.
+    >**Note:** You will have to display the courses in **tabular form**. Disable the **Select button** when the available seats become **zero** and make the row of that course :red_circle: **red colored**.
 
 <br/>
 
@@ -153,7 +153,7 @@ The All Courses will have the information of the courses that are offered in the
 
 <br/>
 
-10.  **<span style="color:green">Student Dashboard:</span>**
+10.  **Student Dashboard:**
     <br/>
     ***It will be private & only a student can access this route.***
     
@@ -171,7 +171,7 @@ The All Courses will have the information of the courses that are offered in the
 
 <br/>
 
-11. **<span style="color:green">My Selected Courses: (Student dashboard)**
+11. **My Selected Courses: (Student dashboard)**
 
     - **Pay button Action:** Upon clicking the **Pay button** for a course, the student will be redirected to the payment page to finalize his/her payment. After a successful payment, the **Available seats** for the particular course will be reduced and the course information will be shown on the **My Booked Courses page**. Make sure to remove the course from the **My Selected Courses page**.
 
@@ -179,7 +179,7 @@ The All Courses will have the information of the courses that are offered in the
 
 <br/>
 
-12.  **<span style="color:green">Instructor Dashboard:</span>**
+12.  **Instructor Dashboard:**
     <br/>
     ***It will be private & only an instructor can access this route.***
 
@@ -200,7 +200,7 @@ The All Courses will have the information of the courses that are offered in the
 
 <br/>
 
-13.  **<span style="color:green">Admin Dashboard:</span>**
+13.  **Admin Dashboard:**
     <br/>
     ***It will be private & only an admin can access this route.***
 
@@ -244,7 +244,7 @@ The All Courses will have the information of the courses that are offered in the
 <hr/>
 <br/>
 
-## **Bonus Task:**
+## :writing_hand: **Bonus Task:**
 
 1. Minimum 20 meaningful git commits on the client-side repository and minimum of 12 meaningful commits on the server-side repository.
 
@@ -265,7 +265,7 @@ The All Courses will have the information of the courses that are offered in the
 <hr/>
 <br/>
 
-## **Optional:**
+## :writing_hand: **Optional:**
 
 1. (Highly Recommended) Add extra features of your own you have learnt so far or you can explore new things. This will help you in the future to differentiate your project from others.
 
@@ -281,7 +281,7 @@ The All Courses will have the information of the courses that are offered in the
 <hr/>
 <br/>
 
-## **What to submit:**
+## :pushpin: **What to submit:**
 
 - Your client-side code GitHub repository
 - Your server-side code GitHub repository
@@ -291,7 +291,7 @@ The All Courses will have the information of the courses that are offered in the
 <hr/>
 <br/>
 
-## **Some Guidelines:**
+## :page_with_curl: **Some Guidelines:**
 
 1. Do not waste much time on the website idea. Just spend 20-30 minutes deciding, find a sample website, and start working on it.
 2. Do not waste much time finding the right image. You can always start with a simple idea. Make the website and then add different images.
