@@ -1,6 +1,6 @@
 ﻿# **Task description**
 
-## **Theme: Extracurricular Learning School**<img src="https://i.ibb.co/PtvRpnJ/icons8-school-48.png" alt="School Icon" width="50" height="50">
+## **Theme: Extracurricular Learning School** :stew:
 
 
 You are asked to build a MERN stack website based on a school that allows instructors and students to perform all the activities discussed in the requirements. The website must be exclusively dedicated to one type of school (Music school, Dance school, Art & craft school, Language School, Drama/Theatre school, Culinary school, Sports academies, STEMS school, Design school). Your website will be based on one of these categories mentioned above. If you choose, for example, the category STEMS school, your website should only have all the information and activities based on Science, Technology, Engineering and Mathematics (STEMS) only.
