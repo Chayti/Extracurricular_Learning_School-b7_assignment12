@@ -123,7 +123,6 @@ The All Instructors will have the information of the instructors that work in th
 
    - Image
    - Name
-   - Designation
    - Email
    - See courses button **(connected with point 9)**
    - Follow button **(Disable it if logged in user is already an admin / instructor)**
@@ -137,6 +136,7 @@ The All Courses will have the information of the courses that are offered in the
    - Name
    - Instructor name
    - Available seats
+   - Course Price
    - Select Button **(Disable it if logged in user is already an admin / instructor)**
 
    <br/>
@@ -183,7 +183,7 @@ The All Courses will have the information of the courses that are offered in the
     <br/>
     ***It will be private & only an instructor can access this route.***
 
-      - **Instructor Profile:** A student'll see all the information discussed in **point 4**
+      - **Instructor Profile:** A instructor'll see all the information discussed in **point 4**
       - **Add Course:** This page will have a form with the following fields:
 
         - Course Image
@@ -191,6 +191,7 @@ The All Courses will have the information of the courses that are offered in the
         - Instructor name **(use default name value of logged in instructor)**
         - Instructor email **(use default email value of logged in instructor)**
         - Available seats
+        - Course Price
         - Add button
 
 
@@ -206,7 +207,7 @@ The All Courses will have the information of the courses that are offered in the
 
        - **Admin Profile:** An admin will see all the information discussed in **point 4**
 
-       - **Course Approval:** This page will show the courses added by the instructor from the **Add Course page**. Show the following information: **Course Image, Course name, Instructor name, Instructor email, Available seats, Status(pending/approved/denied) and two buttons( Approve/Deny)**.
+       - **Course Approval:** This page will show the courses added by the instructor from the **Add Course page**. Show the following information: **Course Image, Course name, Instructor name, Instructor email, Available seats, Course Price, Status(pending/approved/denied) and two buttons( Approve/Deny)**.
         
          >**Note:** By default, the status will be pending. When an admin clicks on the Approve button the status will be updated to approved. The Deny and the Approve button will become disabled.
         
@@ -231,7 +232,7 @@ The All Courses will have the information of the courses that are offered in the
 
         - **Manage Notice:** The admin can update and delete the notice.
 
-14.  Implement  JWT token for Login and Registration systems\.You will send the     token for the Dashboard routes and verify the user\.
+14.  Implement  JWT token for Login and Registration systems (Email/ password & social login)\. You will send the token for the Dashboard routes and verify the user\.
 
 </br>
 
