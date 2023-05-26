@@ -5,7 +5,11 @@
 
 You are asked to build a MERN stack website based on a school that allows instructors and students to perform all the activities discussed in the requirements. The website must be exclusively dedicated to one type of school (Music school, Dance school, Art & craft school, Language School, Drama/Theatre school, Culinary school, Sports academies, STEMS school, Design school). Your website will be based on one of these categories mentioned above. If you choose, for example, the category STEMS school, your website should only have all the information and activities based on Science, Technology, Engineering and Mathematics (STEMS) only.
 
-Make sure your website design is unique. Visit ThemeForest, Dribble, google, etc., to get some ideas. Try to explore component libraries other than DaisyUI. Remember, a unique project will add more value to your portfolio.
+Make sure your website design is unique. Remember, a unique project will add more value to your portfolio.
+
+   - Visit ThemeForest, Dribble, google, etc. to get some ideas. 
+   - Visit [this blog to get free images & resources for your website.](https://bootcamp.uxdesign.cc/free-images-and-resources-collection-for-website-c77f2fc46ce5)
+   - Try to explore component libraries other than DaisyUI. You can explore MUI, Ant design, Chakra UI etc.
 
 Read the task carefully.
 
@@ -20,6 +24,8 @@ Read the task carefully.
     - the website has proper alignment and space
     - Do not directly just copy paste a component design from a component library you are using. You will have to customize the design. (e.g. If you are using  DaisyUi & you decided to use a card component, you will have to customize the styling of that card, rather than just copy & paste it)
 
+    <br/>
+    
     >**Note:** Your website must not be related to your previous assignments layout/ design or any practice project shown in the course modules or our conceptual sessions. Ex: You can't copy any design or similar functionality/ layout of
 
         ● Dragon news
