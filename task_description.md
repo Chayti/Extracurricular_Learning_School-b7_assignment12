@@ -8,7 +8,7 @@ You are asked to build a MERN stack website based on a school that allows instru
 Make sure your website design is :unicorn: unique. Remember, a :unicorn: unique project will add more value to your portfolio. :v:
 
    - Visit ThemeForest, Dribble, google, etc. to get some ideas. 
-   - Visit [this blog to get free images & resources for your website.](https://bootcamp.uxdesign.cc/free-images-and-resources-collection-for-website-c77f2fc46ce5)
+   - Visit [this blog to get free images, illustrations & animations for your website.](https://bootcamp.uxdesign.cc/free-images-and-resources-collection-for-website-c77f2fc46ce5)
    - Try to explore component libraries other than DaisyUI. You can explore MUI, Ant design, Chakra UI etc.
 
 Read the task carefully.
@@ -232,7 +232,7 @@ The All Courses will have the information of the courses that are offered in the
 
         </br>
 
-       - **Manage Users:**  The admin can see the relevant information of all registered users. There will be 3 tabs: **All Users, All Instructors, All Students**. **All Users tab** will display the informtion of all registered users information. **All Instructors** tab will display only all instructors information and **All students tab** will display only all students information. **"No users found" will be shown in the tab if any tab has empty data.** All For all tabs, there will be **2 buttons**: **Make Instructor** button, **Make Admin** button.
+       - **Manage Users:**  The admin can see the relevant information of all registered users. There will be 4 tabs: **All Users, All Admins, All Instructors, All Students**. **All Users tab** will display the informtion of all registered users. **All Admins** tab will display only all admins information, **All Instructors** tab will display only all instructors information and **All students tab** will display only all students information. **"No users found" will be shown in the tab if any tab has empty data.** All For all tabs, there will be **2 buttons**: **Make Instructor** button, **Make Admin** button.
 
          - **Make Instructor button Action:** Update the user role as an instructor.
 
