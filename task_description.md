@@ -5,7 +5,7 @@
 
 You are asked to build a MERN stack website based on a school that allows instructors and students to perform all the activities discussed in the requirements. The website must be exclusively dedicated to one type of school (Music school, Dance school, Art & craft school, Language School, Drama/Theatre school, Culinary school, Sports academies, STEMS school, Design school). Your website will be based on one of these categories mentioned above. If you choose, for example, the category STEMS school, your website should only have all the information and activities based on Science, Technology, Engineering and Mathematics (STEMS) only.
 
-Make sure your website design is unique. Remember, a unique project will add more value to your portfolio.
+Make sure your website design is :unicorn: unique. Remember, a :unicorn: unique project will add more value to your portfolio. :v:
 
    - Visit ThemeForest, Dribble, google, etc. to get some ideas. 
    - Visit [this blog to get free images & resources for your website.](https://bootcamp.uxdesign.cc/free-images-and-resources-collection-for-website-c77f2fc46ce5)
@@ -35,17 +35,17 @@ Read the task carefully.
         ● Volunteer network
         ● Bistro Boss
         ● Doc House
-        ● Job Portal Website/ Airbnb or Any conceptual session project etc.
+        ● Job Portal Website/ Aircnc or Any conceptual session project etc.
 
     **If any similarities are found, you will get zero(0) as a penalty.**
 
     <br/>
 
-2. Make sure to keep the navbar and footer **on all the pages except on the 404 page**. Create a reasonable, stylish and meaningful footer. (including website logo, name, copyright, some contact information, address etc.)
+2. Make sure to keep the navbar and footer **on all the pages except on the 404 page**. Create a reasonable, stylish and meaningful footer. (including website logo or name or both, copyright, some contact information, address etc.)
 
 <br/>
 
-3. Your website should have a navbar with the **Website logo, Website name, Home, All Instructors, All Courses, Dashboard** and **User profile picture**\. The **user profile picture** and **Dashboard** on the navbar are conditional\. If the user is signed in, the navbar will show the profile picture; otherwise, it will show the **Login button**\.
+3. Your website should have a navbar with the **Website logo or Website name or both, Home, All Instructors, All Courses, Dashboard** and **User profile picture**\. The **user profile picture** and **Dashboard** on the navbar are conditional\. If the user is signed in, the navbar will show the profile picture; otherwise, it will show the **Login button**\.
 
 <br/>
 
@@ -112,15 +112,17 @@ Read the task carefully.
     - **Top Slider Section -** Will have a relevant slider.
     - **Message from the School Director/President section -** give a relevant message and a picture. The design is entirely up to you.
     - **Gallery Section -** Show relevant pictures related to the school activities. For example, pictures  - festivals, seminars, student activities, etc.
-    - **Notice Board section -** Display some notices related to the school (upcoming training, available - competitions etc.)
+    - **Events section -** It will have 2 tabs called **Upcoming Events & Previous Events**. If the event date has already passed, it will be displayed in the **Previous Events tab**. Otherwise, the event will be displayed in the **Upcoming Events tab**.
+    
+    Display some events related to the school (trainings, competitions, cultural events etc.)
 
         The information will be the following:
-        - Image
-        - Title
+        - Event poster (image)
+        - Event Title
         - Event Date
-        - Short description
+        - Description
 
-    - **Extra Section -** Add one relevant section. Make it attractive. Try to use any animation effects.
+    - **Extra Section -** Add one relevant section. Make it attractive :heart_eyes:. Try to use any animation effects.
 
 <br/>
 
@@ -189,7 +191,7 @@ The All Courses will have the information of the courses that are offered in the
     <br/>
     ***It will be private & only an instructor can access this route.***
 
-      - **Instructor Profile:** A instructor'll see all the information discussed in **point 4**
+      - **Instructor Profile:** An instructor will see all the information discussed in **point 4**
       - **Add Course:** This page will have a form with the following fields:
 
         - Course Image
@@ -201,9 +203,16 @@ The All Courses will have the information of the courses that are offered in the
         - Add button
 
 
-      - **My Courses:**  Show all the courses of an instructor that he/she has added after clicking the **Add button** from the **Add Course page**. Each course will show relevant information, **pending/ approved/ denied** status & **Update button**.
+      - **My Courses:**  Show all the courses of an instructor that he/she has added after clicking the **Add button** from the **Add Course page**. Each course will show relevant information including **pending/ approved/ denied** status, **Total Enrolled Students**, **Feedback** & **Update button**.
+        
+        - **Total Enrolled Students:** Initially it will be zero. Show the total number of students If any student has successfully booked the course.
 
-        - **Updated button Action:** An instructor can update a course. You can show the form either in a modal or in another route
+        - **Feedback:** 
+            - If the course is in pending status, just show the message "It is in pending state."
+            - If the course is in approved state, show the feedback of approve reason from admin.
+            - If the course is in denied state, show the feedback of deny reason from admin.
+
+        - **Updated button Action:** An instructor can update a course information. You can show the form either in a modal or in another route. The **update button** will be **disabled** if the status is approved.
 
 <br/>
 
@@ -213,30 +222,31 @@ The All Courses will have the information of the courses that are offered in the
 
        - **Admin Profile:** An admin will see all the information discussed in **point 4**
 
-       - **Course Approval:** This page will show the courses added by the instructor from the **Add Course page**. Show the following information: **Course Image, Course name, Instructor name, Instructor email, Available seats, Course Price, Status(pending/approved/denied) and two buttons( Approve/Deny)**.
+       - **Course Approval:** This page will show the courses added by the instructor from the **Add Course page**. Show the following information: **Course Image, Course name, Instructor name, Instructor email, Available seats, Course Price, Status(pending/approved/denied) 3 buttons( Approve/Deny) and send feedback**.
         
          >**Note:** By default, the status will be pending. When an admin clicks on the Approve button the status will be updated to approved. The Deny and the Approve button will become disabled.
         
-         >**Note:** If the admin clicks on the Deny button, the status will be updated to denied.The Deny and the Approve button will become disabled.
+         >**Note:** If the admin clicks on the Deny button, the status will be updated to denied.The Deny and the Approve button will become disabled. 
+
+         >**Note:** When the admin clicks on the send feedback button, a modal will be opened. Admin will write the approve/ deny reason in a text field and send to instructor. You can also do this in another route except modal.
 
         </br>
 
-       - **Manage Users:**  The admin can see the relevant information of all registered users. For all users, there will be **3 buttons**: **Make Instructor** button, **Make Admin** button and **Delete** button.
+       - **Manage Users:**  The admin can see the relevant information of all registered users. There will be 3 tabs: **All Users, All Instructors, All Students**. **All Users tab** will display the informtion of all registered users information. **All Instructors** tab will display only all instructors information and **All students tab** will display only all students information. **"No users found" will be shown in the tab if any tab has empty data.** All For all tabs, there will be **2 buttons**: **Make Instructor** button, **Make Admin** button.
 
          - **Make Instructor button Action:** Update the user role as an instructor.
 
            >**Note:** If the admin makes a user instructor, that user profile page will have the instructor as the role]
 
          - **Make Admin button Action:** Update the user role as an admin.
-         - **Delete button Action:** An admin can delete a user.
 
           </br>
 
           > **Note:** When a user registers or logs in he/she will have the student role  by default until the admin assigns instructor or admin role.
 
-        - **Add Notice:** There will be a form page where the admin will add the information discussed in **point 6(D)**
+        - **Add Events:** There will be a form where the admin will add the information discussed in **point 6(D)**. If he/ she gives event date which has already passed, then it will automatically displayed in the **Previous Events tab**.
 
-        - **Manage Notice:** The admin can update and delete the notice.
+        - **Manage Events:** The admin can update and delete the event.
 
 14.  Implement  JWT token for Login and Registration systems (Email/ password & social login)\. You will send the token for the Dashboard routes and verify the user\.
 
@@ -246,7 +256,19 @@ The All Courses will have the information of the courses that are offered in the
 
 </br>
 
-16.  Use the Environment variables both in client side & server side\.
+16.  Must Use [react-hook-form](https://react-hook-form.com/) in the registration & login page.
+
+</br>
+
+17.  Use the Environment variables both in client side & server side\.
+
+</br>
+
+18. Use **relevant icons** in your **dashboard menus**, animations on your website.\. You have to use **any one** of the animation librabies below:
+    - [Framer-motion](https://www.framer.com/motion/)
+    - [React-awesome-reveal](https://react-awesome-reveal.morello.dev/)
+    - [React-spring](https://www.react-spring.dev/)
+    - [React-anime](https://github.com/juliangarnier/anime)
 
 <hr/>
 <br/>
@@ -257,7 +279,7 @@ The All Courses will have the information of the courses that are offered in the
 
 2. Create a readme for client-side and write about your project.
 
-    - Website name + logo
+    - Website name or logo or both
     - Minimum 5 points of your website features
     - Used packages/ technology name
     - Live site link
@@ -266,13 +288,15 @@ The All Courses will have the information of the courses that are offered in the
 
 4. Most likely the framework will do it for you\. However do not forget to make your entire website responsive\. (It is ok if the table is not responsive\.) Please note, all the pages including the dashboard will be responsive\.
 
-5. Do point **10(4)**
+5. Use tanstack query in all of the get APIs of admin dashboard.
+
+6. Do point **10(4)**
 
 
 <hr/>
 <br/>
 
-## :writing_hand: **Optional:**
+## :writing_hand: **Optional Task:**
 
 1. (Highly Recommended) Add extra features of your own you have learnt so far or you can explore new things. This will help you in the future to differentiate your project from others.
 
@@ -283,7 +307,9 @@ The All Courses will have the information of the courses that are offered in the
     - [React-card-flip](https://www.npmjs.com/package/react-card-flip)
     - [React-image-zoom](https://www.npmjs.com/package/react-image-zoom)
 
-3. If you want you can add an intro video button in each course information, clicking on this button will open a modal which will play the video\.
+3. Explore [Tanstack query mutations](https://tanstack.com/query/latest/docs/react/guides/mutations)
+
+4. If you want you can add an intro video button in each course information, clicking on this button will open a modal which will play the video\.
 
 <hr/>
 <br/>
