@@ -232,7 +232,9 @@ The All Courses will have the information of the courses that are offered in the
 
         </br>
 
-       - **Manage Users:**  The admin can see the relevant information of all registered users. There will be 4 tabs: **All Users, All Admins, All Instructors, All Students**. **All Users tab** will display the informtion of all registered users. **All Admins** tab will display only all admins information, **All Instructors** tab will display only all instructors information and **All students tab** will display only all students information. **"No users found" will be shown in the tab if any tab has empty data.** All For **All Users tab**, there will be **2 buttons**: **Make Instructor** button, **Make Admin** button.
+       - **Manage Users:**  The admin can see the relevant information of all registered users. There will be 4 tabs: **All Users, All Admins, All Instructors, All Students**. **All Users tab** will display the informtion of all registered users. **All Admins** tab will display only all admins information, **All Instructors** tab will display only all instructors information and **All students tab** will display only all students information. **"No users found" will be shown in the tab if any tab has empty data.** 
+       
+       Only For **All Users tab**, there will be **2 buttons**: **Make Instructor** button, **Make Admin** button. If a user clicks any of the button, make sure to disable it.
 
          - **Make Instructor button Action:** Update the user role as an instructor.
 
@@ -290,7 +292,7 @@ The All Courses will have the information of the courses that are offered in the
 
 5. Use tanstack query in all of the get APIs of admin dashboard.
 
-6. Follow point 6(D) of main task.
+6. Follow point **6(D) of main task**.
 
 
 <hr/>
