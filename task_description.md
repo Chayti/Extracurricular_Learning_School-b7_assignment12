@@ -3,7 +3,8 @@
 ## **Theme: Extracurricular Learning School** :school:
 
 
-You are asked to build a MERN stack website based on a school that allows instructors and students to perform all the activities discussed in the requirements. The website must be exclusively dedicated to one type of school (Music school, Dance school, Art & craft school, Language School, Drama/Theatre school, Culinary school, Sports academies, STEMS school, Design school). Your website will be based on one of these categories mentioned above. If you choose, for example, the category STEMS school, your website should only have all the information and activities based on Science, Technology, Engineering and Mathematics (STEMS) only.
+You are asked to build a MERN stack website based on a school that allows instructors and students to perform all the activities discussed in the requirements. The website must be exclusively dedicated to one type of school **(Music school, Dance school, Art & craft school, Language School, Drama/Theatre school, Sports academies, Design school, Photography School)**. Your website will be based on one of these categories mentioned above. If you choose, for example, the category photography school, your website should only have all the information and activities based on photography only. 
+>**Note: You can not do anything related cooking school.**
 
 Make sure your website design is :unicorn: unique. Remember, a :unicorn: unique project will add more value to your portfolio. :v:
 
