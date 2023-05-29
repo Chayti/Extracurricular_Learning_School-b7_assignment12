@@ -112,7 +112,7 @@ Read the task carefully.
     - **Top Slider Section -** Will have a relevant slider.
     - **Message from the School Director/President section -** give a relevant message and a picture. The design is entirely up to you.
     - **Gallery Section -** Show relevant pictures related to the school activities. For example, pictures  - festivals, seminars, student activities, etc.
-    - **Events section -** It will have 2 tabs called **Upcoming Events & Previous Events**. If the event date has already passed, it will be displayed in the **Previous Events tab**. Otherwise, the event will be displayed in the **Upcoming Events tab**.
+    - **(Bonus task) Events section -** It will have 2 tabs called **Upcoming Events & Previous Events**. If the event date has already passed, it will be displayed in the **Previous Events tab**. Otherwise, the event will be displayed in the **Upcoming Events tab**. **Suppose, today is 28 May, 2023. Your event date is 16 May, 2023. Then, this event will go to Previous Events tab.**
     
     Display some events related to the school (trainings, competitions, cultural events etc.)
 
@@ -171,7 +171,7 @@ The All Courses will have the information of the courses that are offered in the
 
      - **My Booked Courses:**  Show all the courses a student selected after successful payment.
 
-     - **(Bonus task) Following:** A student will see all instructors he/she is following after clicking the **Follow button** on **All Instructors page** & then make sure to disable the **Follow button**. Show relevant information of an instructor, an **Unfollow button** and **See courses button**.
+     - **(Optional task) Following:** A student will see all instructors he/she is following after clicking the **Follow button** on **All Instructors page** & then make sure to disable the **Follow button**. Show relevant information of an instructor, an **Unfollow button** and **See courses button**.
 
         - **Unfollow button action:** On clicking the **Unfollow button**, a student can unfollow an instructor and the instructor will disappear from the Following page. Make sure to make the **Follow button active** on the **All Instructors Page** again.
 
@@ -290,7 +290,7 @@ The All Courses will have the information of the courses that are offered in the
 
 5. Use tanstack query in all of the get APIs of admin dashboard.
 
-6. Do point **10(4)**
+6. Follow point 6(D) of main task.
 
 
 <hr/>
@@ -310,6 +310,8 @@ The All Courses will have the information of the courses that are offered in the
 3. Explore [Tanstack query mutations](https://tanstack.com/query/latest/docs/react/guides/mutations)
 
 4. If you want you can add an intro video button in each course information, clicking on this button will open a modal which will play the video\.
+
+5. Do point **10(4) of main task.**
 
 <hr/>
 <br/>
