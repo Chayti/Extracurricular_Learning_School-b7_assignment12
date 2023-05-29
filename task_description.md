@@ -112,7 +112,7 @@ Read the task carefully.
     - **Top Slider Section -** Will have a relevant slider.
     - **Message from the School Director/President section -** give a relevant message and a picture. The design is entirely up to you.
     - **Gallery Section -** Show relevant pictures related to the school activities. For example, pictures  - festivals, seminars, student activities, etc.
-    - **(Bonus task) Events section -** It will have 2 tabs called **Upcoming Events & Previous Events**. If the event date has already passed, it will be displayed in the **Previous Events tab**. Otherwise, the event will be displayed in the **Upcoming Events tab**. **Suppose, today is 28 May, 2023. Your event date is 16 May, 2023. Then, this event will go to Previous Events tab.**
+    - **(Bonus task) Events section -** It will have 2 tabs called **Latest Events & Previous Events**. If the event date has already passed, it will be displayed in the **Previous Events tab**. Otherwise, the event will be displayed in the **Latest Events tab**. **Suppose, today is 28 May, 2023. Your event date is 27 May, 2023. Then, this event will go to Previous Events tab.**
     
     Display some events related to the school (trainings, competitions, cultural events etc.)
 
